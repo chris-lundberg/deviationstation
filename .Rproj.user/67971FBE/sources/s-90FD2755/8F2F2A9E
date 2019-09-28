@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "757929391",
+    "hash" : "3985060360",
     "id" : "8F2F2A9E",
-    "lastKnownWriteTime" : 1569699403,
-    "last_content_update" : 1569699403499,
+    "lastKnownWriteTime" : 1569699694,
+    "last_content_update" : 1569699694070,
     "path" : "~/deviationstation/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "1,47",
+        "cursorPosition" : "2,0",
         "scrollLine" : "0"
     },
     "read_only" : false,
