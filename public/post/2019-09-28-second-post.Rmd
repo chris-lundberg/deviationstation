@@ -1,0 +1,18 @@
+---
+title: second post
+author: Chris Lundberg
+date: '2019-09-28'
+slug: second-post
+categories:
+  - R
+tags:
+  - google analytics
+Categories:
+  - Development
+  - GoLang
+Description: ''
+Tags:
+  - Development
+  - golang
+menu: main
+---
