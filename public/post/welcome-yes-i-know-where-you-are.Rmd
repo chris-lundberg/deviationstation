@@ -17,4 +17,4 @@ Tags:
 menu: main
 ---
 
-Welcome to my blog. I will post monthly about things I am interested in.
+It seems appropriate for my first post to be about the creepy things I can find out about my readers using [Google Analytics](https://analytics.google.com). 

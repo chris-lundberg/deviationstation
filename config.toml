@@ -1,7 +1,8 @@
 theme = "hyde"
 baseURL = "https://deviationstation.netlify.com/"
-languageCode = "en-us"
 disqusShortname = "deviationstation"
+GoogleAnalytics = "UA-148958941-1"
+languageCode = "en-us"
 title = "Chris Lundberg"
 
 [Menus]
