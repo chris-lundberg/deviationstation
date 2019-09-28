@@ -1,5 +1,6 @@
 theme = "hyde"
 baseURL = "https://deviationstation.netlify.com/"
+relativeURLs = true
 disqusShortname = "deviationstation"
 GoogleAnalytics = "UA-148958941-1"
 languageCode = "en-us"
@@ -13,3 +14,6 @@ title = "Chris Lundberg"
 
 [params]
   description = "I'm a data enthusiast interested in music, endurance sports, computer science, and investing."
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
