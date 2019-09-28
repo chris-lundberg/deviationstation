@@ -1,5 +1,5 @@
 theme = "hyde"
-baseURL = "http://deviationstation.io"
+baseURL = "https://deviationstation.io"
 languageCode = "en-us"
 disqusShortname = "deviationstation"
 title = "Chris Lundberg"
