@@ -1,0 +1,14 @@
+theme = "hyde"
+baseURL = "http://deviationstation.io"
+languageCode = "en-us"
+disqusShortname = "deviationstation"
+title = "Chris Lundberg"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/chris-lundberg/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/chris-lundberg/"}
+  ]
+
+[params]
+  description = "I'm a data enthusiast interested in music, endurance sports, computer science, and investing."
