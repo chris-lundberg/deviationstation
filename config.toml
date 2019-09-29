@@ -4,16 +4,19 @@ relativeURLs = true
 disqusShortname = "deviationstation"
 GoogleAnalytics = "UA-148958941-1"
 languageCode = "en-us"
-title = "Chris Lundberg"
+title = "Chris's Blog"
 
 [Menus]
   main = [
+      {Name = "About", URL = "/about/"},
+      {Name = "Blog", URL = "/blog/"},
       {Name = "Github", URL = "https://github.com/chris-lundberg/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/chris-lundberg/"}
   ]
 
 [params]
-  description = "I'm a data enthusiast interested in music, endurance sports, computer science, and investing."
+  description = "Monthly posts exploring open data with R and Python."
+  
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
+  post = "/blog/:slug/"

@@ -1,12 +1,12 @@
 ---
-title: second post
+title: My Second Post
 author: Chris Lundberg
 date: '2019-09-28'
-slug: second-post
+slug: my-second-post
 categories:
-  - R
+  - Statistics
 tags:
-  - google analytics
+  - R
 Categories:
   - Development
   - GoLang

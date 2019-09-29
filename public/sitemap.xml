@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/</loc>
+    <lastmod>2019-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
@@ -13,7 +18,7 @@
   </url>
   
   <url>
-    <loc>/tags/data-visualization/</loc>
+    <loc>/categories/digital-privacy/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,7 +28,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,12 +38,7 @@
   </url>
   
   <url>
-    <loc>/categories/technology/</loc>
-    <lastmod>2019-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2019/09/28/welcome-yes-i-know-where-you-are/</loc>
+    <loc>/blog/welcome-yes-i-know-where-you-are/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   

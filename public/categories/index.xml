@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Chris Lundberg</title>
+    <title>Categories on Chris&#39;s Blog</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Chris Lundberg</description>
+    <description>Recent content in Categories on Chris&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Sep 2019 00:00:00 +0000</lastBuildDate>
@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Technology</title>
-      <link>/categories/technology/</link>
+      <title>Digital Privacy</title>
+      <link>/categories/digital-privacy/</link>
       <pubDate>Sat, 28 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/technology/</guid>
+      <guid>/categories/digital-privacy/</guid>
       <description></description>
     </item>
     

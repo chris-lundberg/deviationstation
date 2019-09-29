@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chris Lundberg</title>
+    <title>Chris&#39;s Blog</title>
     <link>/</link>
-    <description>Recent content on Chris Lundberg</description>
+    <description>Recent content on Chris&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Sep 2019 00:00:00 +0000</lastBuildDate>
@@ -13,11 +13,11 @@
     
     <item>
       <title>Welcome! (Yes, I know where you are)</title>
-      <link>/2019/09/28/welcome-yes-i-know-where-you-are/</link>
+      <link>/blog/welcome-yes-i-know-where-you-are/</link>
       <pubDate>Sat, 28 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/09/28/welcome-yes-i-know-where-you-are/</guid>
-      <description>It seems appropriate for my first post to be about the creepy things I can find out about my readers using Google Analytics.</description>
+      <guid>/blog/welcome-yes-i-know-where-you-are/</guid>
+      <description>It seems appropriate for my first post to be about the creepy things I can find out about my readers using Google Analytics. First, I think it’s important to disclose to readers that I’m collecting this data. Second, many of my future posts will address the tension I feel between the tremendous value that this type of behavioral data can add for companies and their customers and the risk that unsuspecting users are manipulated to behave in ways that benefit</description>
     </item>
     
   </channel>
