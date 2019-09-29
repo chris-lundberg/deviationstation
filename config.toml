@@ -4,7 +4,7 @@ relativeURLs = true
 disqusShortname = "deviationstation"
 GoogleAnalytics = "UA-148958941-1"
 languageCode = "en-us"
-title = "Chris's Blog"
+title = "Data Hack"
 
 [Menus]
   main = [
