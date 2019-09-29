@@ -17,4 +17,16 @@ menu: blog
 
 
 <p>It seems appropriate for my first post to be about all the creepy things I can find out about my readers using <a href="https://analytics.google.com">Google Analytics</a>, as it will give you a chance to quickly leave if you don’t want me to know your deep, dark secrets. For those of you with no intention of using google analytics or interest in the code in this post, you may still find the following details interesting, as there seems to be a general misunderstanding, at least among members of Congress, about what information is collected from internet users and who can access it:</p>
-{{% youtube "Oqw81WF_eqw" %}}
+<p>{{% youtube "Oqw81WF_eqw" %}}
+</p>
+<p>The short answer to Rep. Ted Poe’s question is that yes, Google knows where you are, and they share this information with every website you visit that embeds a Google Analytics tracking ID like this:</p>
+<pre class="js"><code>&lt;script type=&quot;application/javascript&quot;&gt;
+var doNotTrack = false;
+if (!doNotTrack) {
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga(&#39;create&#39;, &#39;UA-123456789-1&#39;, &#39;auto&#39;);
+    
+    ga(&#39;send&#39;, &#39;pageview&#39;);
+}
+&lt;/script&gt;
+&lt;script async src=&#39;https://www.google-analytics.com/analytics.js&#39;&gt;&lt;/script&gt;</code></pre>

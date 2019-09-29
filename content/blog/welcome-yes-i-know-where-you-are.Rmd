@@ -19,3 +19,21 @@ It seems appropriate for my first post to be about all the creepy things I can f
 ```{r pichai-video, eval=TRUE, echo=FALSE}
 blogdown::shortcode("youtube", "Oqw81WF_eqw")
 ```
+\newline
+
+The short answer to Rep. Ted Poe's question is that yes, Google knows where you are, and they share this information with every website you visit that embeds a Google Analytics tracking ID like this:
+
+```{js ga-example, eval=FALSE}
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123456789-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+```
+
+
