@@ -6,14 +6,16 @@ slug: welcome-yes-i-know-where-you-are
 categories: []
 tags: 
   - google analytics
-  - data visualization
 Categories:
-  - Digital Privacy
+  - R
 Description: ''
 Tags:
-  - R
   - google analytics
 menu: blog
 ---
 
-It seems appropriate for my first post to be about the creepy things I can find out about my readers using [Google Analytics](https://analytics.google.com). First, I think it's important to disclose to readers that I'm collecting this data. Second, many of my future posts will address the tension I feel between the tremendous value that this type of behavioral data can add for companies and their customers and the risk that unsuspecting users are manipulated to behave in ways that benefit
+It seems appropriate for my first post to be about all the creepy things I can find out about my readers using [Google Analytics](https://analytics.google.com), as it will give you a chance to quickly leave if you don't want me to know your deep, dark secrets. For those of you with no intention of using google analytics or interest in the code in this post, you may still find the following details interesting, as there seems to be a general misunderstanding, at least among members of Congress, about what information is collected from internet users and who can access it:
+
+```{r pichai-video, eval=TRUE, echo=FALSE}
+blogdown::shortcode("youtube", "Oqw81WF_eqw")
+```

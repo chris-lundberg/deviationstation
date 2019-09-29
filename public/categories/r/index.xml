@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on Chris Lundberg</title>
+    <title>R on Chris&#39;s Blog</title>
     <link>/categories/r/</link>
-    <description>Recent content in R on Chris Lundberg</description>
+    <description>Recent content in R on Chris&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Welcome! (Yes, I know where you are)</title>
+      <link>/blog/welcome-yes-i-know-where-you-are/</link>
+      <pubDate>Sat, 28 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/blog/welcome-yes-i-know-where-you-are/</guid>
+      <description>It seems appropriate for my first post to be about all the creepy things I can find out about my readers using Google Analytics, as it will give you a chance to quickly leave if you don’t want me to know your deep, dark secrets. For those of you with no intention of using google analytics or interest in the code in this post, you may still find the following details interesting, as there seems to be a general misunderstanding, at least among members of Congress, about what information is collected from internet users and who can access it:</description>
     </item>
     
   </channel>
