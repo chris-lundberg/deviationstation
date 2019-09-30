@@ -4,7 +4,7 @@ relativeURLs = true
 disqusShortname = "deviationstation"
 GoogleAnalytics = "UA-148958941-1"
 languageCode = "en-us"
-title = "Data Hack"
+title = "data %>% hack"
 
 [Menus]
   main = [
@@ -15,7 +15,7 @@ title = "Data Hack"
   ]
 
 [params]
-  description = "Monthly posts exploring open data with R and Python."
+  description = "Data journalism. Monthly posts exploring open data."
   highlightjsVersion = "9.12.0"
   highlightjsCDN = "//cdn.bootcss.com"
   highlightjsTheme = "monokai"

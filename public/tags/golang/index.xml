@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on Chris Lundberg</title>
+    <title>golang on data %&gt;% hack</title>
     <link>/tags/golang/</link>
-    <description>Recent content in golang on Chris Lundberg</description>
+    <description>Recent content in golang on data %&gt;% hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My Second Post</title>
-      <link>/blog/my-second-post/</link>
-      <pubDate>Sat, 28 Sep 2019 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/my-second-post/</guid>
+      <guid>/about/</guid>
       <description></description>
     </item>
     
