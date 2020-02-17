@@ -15,7 +15,7 @@ title = "data %>% hack"
   ]
 
 [params]
-  description = "monthly posts exploring open data"
+  description = "Monthly posts exploring open data."
   highlightjsVersion = "9.12.0"
   highlightjsCDN = "//cdn.bootcss.com"
   highlightjsTheme = "monokai"
