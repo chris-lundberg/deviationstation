@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Welcome! (Yes, I know where you are) &middot; data %&gt;% hack</title>
+  <title>Is This Good for the Company? &middot; data %&gt;% hack</title>
 
   
   <link type="text/css" rel="stylesheet" href="../../css/print.css" media="print">
@@ -56,8 +56,8 @@
 
     <main class="content container">
     <div class="post">
-  <h1>Welcome! (Yes, I know where you are)</h1>
-  <time datetime=2019-09-28T00:00:00Z class="post-date">Sat, Sep 28, 2019</time>
+  <h1>Is This Good for the Company?</h1>
+  <time datetime=2020-03-02T00:00:00Z class="post-date">Mon, Mar 2, 2020</time>
   <p class="terms">
     
     
@@ -70,7 +70,7 @@
     
     Tags:
     
-    <a href='../../tags/google-analytics'>google analytics</a>
+    <a href='../../tags/text-classification'>text classification</a>
     <br>
     
     <br>
@@ -78,25 +78,24 @@
   
 
 
-<p>It seems appropriate for my first post to be about all the creepy things I can find out about my readers using <a href="https://analytics.google.com">Google Analytics</a>, as it will give you a chance to quickly leave if you don’t want me to know your deep, dark secrets.</p>
-<p>For those of you with no intention of using google analytics or interest in the code in this post, you may still find the following details interesting, as there seems to be a general misunderstanding, at least among members of Congress, about what information is collected from internet users and who can access it:</p>
-<p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Oqw81WF_eqw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<p>In this post I’m going to build a text classification model using the script from <a href="https://en.wikipedia.org/wiki/The_Office_(American_TV_series)">The Office</a>. I’ll use the <code>R</code> package <code>dundermifflin</code> to access the quote data I’ll need to build the classification model as well as various packages from <code>tidymodels</code> and the <code>tidyverse</code> for data wrangling, data visualization, model fitting and evaluation, and prediction.</p>
+<p>First, let’s load the packages we’ll need and explore the data a bit:</p>
+<pre class="r"><code># Load packages and data
+library(dundermifflin)
+library(tidymodels)
+library(tidyverse)
+library(textrecipes)
+library(ggthemes)
 
-</p>
-<p>The short answer to Rep. Ted Poe’s question is that yes, Google knows where you are, and they share this information with every website you visit that embeds a Google Analytics tracking ID like this:</p>
-<pre class="js"><code>&lt;script type=&quot;application/javascript&quot;&gt;
-var doNotTrack = false;
-if (!doNotTrack) {
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga(&#39;create&#39;, &#39;UA-123456789-1&#39;, &#39;auto&#39;);
-    
-    ga(&#39;send&#39;, &#39;pageview&#39;);
-}
-&lt;/script&gt;
-&lt;script async src=&#39;https://www.google-analytics.com/analytics.js&#39;&gt;&lt;/script&gt;</code></pre>
+quotes &lt;- office_quotes %&gt;% mutate(character = as_factor(character)) %&gt;% 
+  group_by(character) %&gt;% add_tally() %&gt;% filter(n &gt;= 700) %&gt;% 
+  select(character, quote, n) </code></pre>
+<p>I filtered the data so that we’re only going to consider quotes from charters with at least 700 lines, which leaves us with 15 characters. Let’s take a look at the data:</p>
+<pre class="r"><code># Create bar plot
+ggplot(quotes, aes(character)) + geom_bar() +
+  coord_flip() + theme_classic() +
+  xlab(&quot;Character&quot;) + ylab(&quot;Number of Lines&quot;) </code></pre>
+<p><img src="../../post/2020-03-02-is-this-good-for-the-company_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 
 </div>
 

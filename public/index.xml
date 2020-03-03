@@ -6,10 +6,20 @@
     <description>Recent content on data %&gt;% hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Is This Good for the Company?</title>
+      <link>/blog/is-this-good-for-the-company/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/is-this-good-for-the-company/</guid>
+      <description>In this post I’m going to build a text classification model using the script from The Office. I’ll use the R package dundermifflin to access the quote data I’ll need to build the classification model as well as various packages from tidymodels and the tidyverse for data wrangling, data visualization, model fitting and evaluation, and prediction.
+First, let’s load the packages we’ll need and explore the data a bit:</description>
+    </item>
     
     <item>
       <title>Welcome! (Yes, I know where you are)</title>
