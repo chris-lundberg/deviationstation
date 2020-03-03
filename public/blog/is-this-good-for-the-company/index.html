@@ -80,8 +80,7 @@
 
 <p>In this post I’m going to build a text classification model using the script from <a href="https://en.wikipedia.org/wiki/The_Office_(American_TV_series)">The Office</a>. I’ll use the <code>R</code> package <code>dundermifflin</code> to access the quote data I’ll need to build the classification model as well as various packages from <code>tidymodels</code> and the <code>tidyverse</code> for data wrangling, data visualization, model fitting and evaluation, and prediction.</p>
 <p>First, let’s load the packages we’ll need and explore the data a bit:</p>
-<pre class="r"><code># Load packages and data
-library(dundermifflin)
+<pre class="r"><code>library(dundermifflin)
 library(tidymodels)
 library(tidyverse)
 library(textrecipes)
@@ -91,11 +90,10 @@ quotes &lt;- office_quotes %&gt;% mutate(character = as_factor(character)) %&gt;
   group_by(character) %&gt;% add_tally() %&gt;% filter(n &gt;= 700) %&gt;% 
   select(character, quote, n) </code></pre>
 <p>I filtered the data so that we’re only going to consider quotes from charters with at least 700 lines, which leaves us with 15 characters. Let’s take a look at the data:</p>
-<pre class="r"><code># Create bar plot
-ggplot(quotes, aes(character)) + geom_bar() +
+<pre class="r"><code>ggplot(quotes, aes(character)) + geom_bar() +
   coord_flip() + theme_classic() +
   xlab(&quot;Character&quot;) + ylab(&quot;Number of Lines&quot;) </code></pre>
-<p><img src="../../post/2020-03-02-is-this-good-for-the-company_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><img src="../../blog/2020-03-02-is-this-good-for-the-company_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 
 </div>
 
